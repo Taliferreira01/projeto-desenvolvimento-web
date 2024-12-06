@@ -1,0 +1,143 @@
+/* 
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+****** FORMATAÇÃO GENERICA PARA MUDAR O RESULTADO FINAL ******
+*/
+body{ /*CORPO GERAL DA PAGINA*/
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #C4C4C4;
+}
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+h2{
+    color:#0066CC
+}
+h3{
+    color: #565656;
+    background: #CCCCCC;
+    padding: 5px;
+}
+/* 
+****** HARDER ******
+*/
+#header{
+    background-color: #0066CC;
+    padding: 15px;
+    text-align: center;
+}
+#logo, #menu { /* alterando a margem do logo e menu*/
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{ /* trocando cor do link e do visitando*/
+
+    color: #FFFFFF;
+    padding: 8px 12px;
+
+}
+#header a:hover { /*quando passar o mouse em cima troca a cor*/
+    color: #0066CC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white{ /*trocando nome do lógica*/
+    color:#FFFFFF
+}
+.orange{ /*trocando nome do mountair shooter*/
+    color: orangered;
+}
+/* 
+****** CONTENT ******
+*/
+#content {
+    width: 920px;
+    margin: 0 auto; /*vai centralizar imagem no meio da tela*/
+    padding: 15px;
+}
+/* mexer na área dos posts */
+#posts{
+    width: 660px;
+    float: left /* os posts vão flutuar para a esquerda.*/
+
+}
+.post{ /*classe usa . */
+    padding: 20px;
+    margin-bottom: 20px; /*margem inferior, cada margem 20 px abaixo do outro*/
+    background: #FFFFFF; /*cordo do fundo*/
+    text-align: justify; /*todos os texto estaram justificados*/
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066CC;
+    margin-bottom: 10px;
+    display: block;
+}
+.img-post{
+    width: 620px; /*limita o tamanho da imagem*/
+}
+/*Caixa da direita - right size*/
+#right-side{
+    width: 240px;
+    float: right;
+}
+.content-right{
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC; /*Pontilhado para separar os posts*/
+
+}
+/* 
+****** FORMATAÇÃO LINKS ******
+*/
+/*quando se fala em formatar links, utiliza a, todos os comportamento*/
+a{
+    text-decoration: none;}
+
+    a:link, a :visited{ /*rudo que for link fica em azul*/
+        color: #0066CC;
+    }
+a:hover{
+    text-decoration: underline; /*quando passar o mouse em cima vai estar sublinhado*/
+}    
+/* 
+****** FORMATAÇÃO LINKS ******
+*/
+#footer{
+    clear: both; /*limpa a flutuação, para que o roda pé, siga o fluxo*/
+    text-align: center; /*centralizar o texto*/
+    padding: 15px;
+    background: #FFFFFF;
+    color: #0066CC;
+}
+
+.formacao{ /*classe formação para formatação*/
+    padding: 20px;
+    margin-bottom: 20px; /*margem inferior, cada margem 20 px abaixo do outro*/
+    background: #FFFFFF; /*cordo do fundo*/
+    text-align: justify; /*todos os texto estaram justificados*/
+
+}
+
+.contato{ /*classe contato para formatação . */
+    padding: 30px;
+    margin-bottom: 20px; /*margem inferior, cada margem 20 px abaixo do outro*/
+    background: #f0efef; /*cordo do fundo*/
+    text-align: justify; /*todos os texto estaram justificados*/
+    color: rgb(20, 14, 191);
+}
